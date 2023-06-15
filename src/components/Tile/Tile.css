@@ -1,0 +1,24 @@
+.kyarboard .tile {
+    width: 62.5px;
+    height: 62.5px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.black-tile {
+    background-color: #333;
+}
+
+.white-tile {
+    background-color: #fff;
+}
+
+.gold-tile {
+    background-color: goldenrod;
+}
+
+.id{
+    position: absolute;
+    color: red;
+}

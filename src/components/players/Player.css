@@ -1,0 +1,27 @@
+.player {
+    width: 503px;
+    height: 60px;
+    padding: 0 10px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.6s ease-in-out;
+}
+
+.active {
+    border: 2px solid rgb(202, 23, 10);
+    box-shadow: rgba(202, 23, 10, 0.35) 0px 5px 15px;
+    scale: 1.1;
+}
+
+.player p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d21a3;
+}
+
+.eat-list img {
+    width: 30px;
+    height: 30px;
+}
